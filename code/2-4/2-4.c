@@ -7,6 +7,11 @@ int main() {
 
   for (int i=0; i<n; i++) {
     char ch = chars[i];
-    printf("%c - alpha:%d digit:%d
+    printf("%c - alpha:%d digit:%d upper:%c lower:%c\n", 
+      isalpha(ch),
+      isdigit(ch),
+      toupper(ch),
+      tolower(ch));
   }
+  return 0;
 }
