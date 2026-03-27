@@ -13,7 +13,7 @@ int main() {
   strcpy(c, a);
   printf("a: %s, c: %s\n", a, c);
 
-  c = strcat(a, b);
+  strcat(c, b);
   printf("c: %s\n", c);
 
   printf("strcmp(%s, %s) = %d\n", a, a, strcmp(a, a));
