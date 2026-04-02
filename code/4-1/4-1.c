@@ -11,7 +11,7 @@ int main() {
 
   for (int i=0; i<5; i++)
     printf("%d ", b[i]);
-  prnitf("\n");
+  printf("\n");
 
   int c[5] = {0};
 
